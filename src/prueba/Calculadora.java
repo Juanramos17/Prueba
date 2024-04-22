@@ -101,6 +101,19 @@ public class Calculadora {
     public void datos() {
         System.out.println("La marca es " + this.marca + " el modelo es " + this.modelo + " y el numero de serie es " + this.nserie);
     }
+    
+    //Multiplicación añadida
+    
+     public void multiplica(float n1, float n2) {
+        System.out.println("La multiplicaci�n de " + n1 + " por " + n2 + "es " + (n1 * n2));
+
+    }
+
+    public double multiplica(double n1, double n2) {
+        System.out.println("La multiplicaci�n de " + n1 + " por " + n2 + "es " + (n1 * n2));
+        return (n1 * n2);
+
+    }
 
    
 
