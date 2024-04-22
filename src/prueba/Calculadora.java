@@ -114,6 +114,14 @@ public class Calculadora {
         return (n1 * n2);
 
     }
+    
+    public double modulo(double n1, double n2){
+        System.out.println("El modulo de " + n1 + " por " + n2 + "es " + (n1 % n2));
+        return (n1 % n2);
+                
+    }
+    
+    
 
    
 
